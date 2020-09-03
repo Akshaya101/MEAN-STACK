@@ -1,0 +1,62 @@
+body{
+    position: absolute;
+    
+}
+.box-model{
+    border: 2px solid #787878;
+    position: relative;
+    top: 9rem;
+    left: 40rem;
+    height: 40%;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+    box-shadow: 0 30px/*shaded part*/ 20px/*blur part*/ -10px/*background blur*/ #B8B8B8;
+}
+
+input,a,button{
+    display: block;
+}
+a{
+    text-decoration: none;
+    margin-top: 0px;
+}
+.text1{
+    margin: 25px 25px 20px 25px;
+    padding: 3px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+.text2{
+    margin: 20px 25px 0px 25px;
+    padding: 3px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+.a{
+    margin-top:0px;
+    text-align: right;
+    font-size: x-small;
+    padding-right: 15px;
+    color: #686868;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    margin: 20px 0px 10px 25px;
+    padding: 3px;
+    width: 170px;
+    background-color: #F00000 ;
+    color: white;
+    border: 1px solid #808080;
+}
+h4{
+    text-align: center;
+    color: #686868;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto 10px auto;
+    font-size: 12px;
+}
+input::placeholder{
+    padding-left:10px;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+}
