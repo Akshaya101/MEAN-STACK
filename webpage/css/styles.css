@@ -105,6 +105,17 @@ label{
         width: 220px;
         height: 250px;
     }
+    .heading{
+        font-size:3rem;
+        padding-left: 0;
+    }
+    .img-1{
+        width: 200px;
+        height: 300px;
+    }
+    .title-img-adjust{
+        padding-left:30px;
+    }
     
  }
  .kaju{
