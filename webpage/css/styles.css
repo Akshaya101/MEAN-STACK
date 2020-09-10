@@ -54,12 +54,8 @@ label{
     padding-top:30px;
     padding-bottom:30px;
 }
-.img{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 .img-1{
-    height: 400px;
+    height: 300px;
 }
 .img-2{
     height: 400px;
@@ -73,7 +69,7 @@ label{
 .title-img-adjust{
     padding:0px 70px 0px 210px;
 }
-@media (max-width:768px){
+@media screen and (max-width:768px){
     #title{
         text-align: center;
     }
@@ -87,15 +83,17 @@ label{
         visibility: hidden;
     }
     .img-2{
-        margin: 3.75%;
         height: 25%;
         width: 15.62%;
     }
     .coffee-img{
         visibility: hidden;
     }
+    .heading{
+        font-size: 1.5rem;
+    }
 }
- @media (max-width:1024px){
+ @media screen and (max-width:1024px){
     /* label{
         visibility: hidden;
     } */
@@ -106,12 +104,12 @@ label{
         height: 250px;
     }
     .heading{
-        font-size:3rem;
+        font-size:2.5rem;
         padding-left: 0;
     }
     .img-1{
-        width: 200px;
-        height: 300px;
+        width: 210px;
+        height: 330px;
     }
     .title-img-adjust{
         padding-left:30px;
