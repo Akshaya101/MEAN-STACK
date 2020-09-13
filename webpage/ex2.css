@@ -103,3 +103,20 @@ h2{
 .nav-link:hover{
     color: grey;
 }
+h4{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+}
+.modal-header{
+    background-color: #ffe75e;
+}
+.modal-footer{
+    background-color: #ffe75e;
+}
+.modal-body label{
+    font-family: 'Playfair Display', serif;
+    line-height: 2;
+}
