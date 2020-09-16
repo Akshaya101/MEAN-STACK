@@ -1,0 +1,14 @@
+.contact{
+    padding: 0 10% 10% 10%;
+}
+.brand-img{
+    width: 60px;
+    border: 1px solid black;
+}
+.content{
+    margin:3% 5% 3% 5%;
+}
+h1{
+    text-align: center;
+    padding: 5%;
+}
