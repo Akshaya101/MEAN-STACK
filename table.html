@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var myObj = [{name:"Sam",sub1:"58",sub2:"96",sub3:"78"},
+            {name:"Harry",sub1:"87",sub2:"56",sub3:"88"},
+            {name:"John",sub1:"78",sub2:"96",sub3:"78"},
+            {name:"Missy",sub1:"62",sub2:"75",sub3:"98"},
+            {name:"George",sub1:"78",sub2:"96",sub3:"88"},
+            {name:"Billy",sub1:"45",sub2:"78",sub3:"79"},
+            {name:"Spark",sub1:"83",sub2:"84",sub3:"82"},
+            {name:"Paul",sub1:"78",sub2:"65",sub3:"83"},
+            {name:"Hanna",sub1:"78",sub2:"63",sub3:"89"},
+            {name:"Kenny",sub1:"85",sub2:"93",sub3:"75"}];
+
+            //these are key value pairs
+                document.write("<table border='1px' style='border-collapse:collapse;'>");
+                    document.write("<tr>");
+                        document.write("<td>");
+                            document.write(" Name ");
+                        document.write("</td>");
+                        document.write("<td>");
+                            document.write(" Science ");
+                        document.write("</td>");
+                        document.write("<td>");
+                            document.write(" Social ");
+                        document.write("</td>");
+                        document.write("<td>");
+                            document.write(" Maths ");
+                        document.write("</td>");
+                        document.write("<td>");
+                            document.write(" Total Marks ");
+                        document.write("</td>");
+                    document.write("</tr>");
+
+                for(var d=0;d<myObj.length;d++){
+                    
+                    document.write("<tr>");
+                            document.write("<td>");
+                                    document.write(myObj[d].name);
+                            document.write("</td>");
+                            document.write("<td>");
+                                    document.write(myObj[d].sub1);
+                            document.write("</td>");
+                            document.write("<td>");
+                                    document.write(myObj[d].sub2);
+                            document.write("</td>");
+                            document.write("<td>");
+                                    document.write(myObj[d].sub3);
+                            document.write("</td>");
+                            document.write("<td>");
+                                var total = parseInt( myObj[d].sub1)+parseInt( myObj[d].sub2)+parseInt( myObj[d].sub3);
+                                document.write(total);
+                            document.write("</td>");
+                    document.write("</tr>");
+                }
+    </script>
+</head>
+<body>
+    <h1>Dynamic table construction using JS</h1>
+</body>
+</html>
