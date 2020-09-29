@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    margin: 60px;
+    background-image: url(l.jpeg);
+    background-size: auto;
+}
+a{
+    text-decoration: none;
+}
+label{
+    text-align: left;
+    padding: 20px;
+}
+.btn{
+    margin: 20px 30px 20px 0px;
+}
+
+.main{
+    width: 100%;
+}
+.selection{
+    width: 100%;
+    margin-left: 10px;
+}
+.list-group-item, option, label, h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+}
